@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.whole
+{
+    border: 1px solid black;
+}
+.container
+{
+    margin-left: 40vw;
+    margin-top: 24vh;
+}
+.container>div
+{
+    font-size: 30px;
+    font-weight: 800;
+}
+form input
+{
+    width: 17vw;
+    height: 5vh;
+    border: 2px solid;
+}
+.operators button
+{
+    padding:0.8vw;
+    margin: 12px;
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+.res 
+{
+    color: blue;
+    margin-left: 40vw;
+    font-size: 30px;
+    font-weight: bold;
+}
+.err-res
+{
+    color: red;
+    margin-left: 40vw;
+    font-size: 30px;
+    font-weight: bold;
+}
